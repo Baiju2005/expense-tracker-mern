@@ -10,7 +10,7 @@ function ExpenseForm({ onAdd }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await axios.post("https://expense-tracker-mern-backend-pzst.onrender.com", formData);
+    const res = await axios.post("http://localhost:5000/api/expenses/add", formData);
     onAdd(res.data);
     setFormData({ title: "", amount: "", category: "Room" });
   };
