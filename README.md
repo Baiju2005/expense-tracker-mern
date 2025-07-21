@@ -58,7 +58,7 @@ Your frontend will run at: http://localhost:5173
 ---
 
 ### 💻 Dashboard View
-![Dashboard Screenshot](./assets/dashboard.jpg)
+![Dashboard Screenshot](./assets/dashboard.png)
 
 ---
 
