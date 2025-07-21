@@ -9,7 +9,7 @@ function App() {
   const [expenses, setExpenses] = useState([]);
 
   const fetchExpenses = async () => {
-    const res = await axios.get("http://localhost:5000/api/expenses");
+    const res = await axios.get("https://expense-tracker-mern-backend-pzst.onrender.com");
     setExpenses(res.data);
   };
 
