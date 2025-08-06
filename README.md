@@ -43,7 +43,7 @@ PORT=5000
 
 To start the backend server:
 
-npm start
+node server.js
 
 ---
 
